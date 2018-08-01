@@ -20,6 +20,12 @@
       align-items: center;
       justify-content: center;
     }
+    h1 {
+      font-size: 1rem;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+    }
     *::selection {
       background: rgb(43, 43, 43);
     }
@@ -35,6 +41,9 @@
     .red {
       color: #cc6666;
     }
+    .yellow {
+      color: #E8BF6A;
+    }
     .bold {
       font-weight: bold;
     }
@@ -44,9 +53,7 @@
   <pre>
   <span class="orange">class</span> <span class="blue bold">Sebastian</span> <span class="orange">extends</span> <span class="purple">Opperman</span> {
     <span class="red">render</span>() {
-      <span class="orange">return</span>(
-        Coming Soon...
-      )
+      <span class="orange">return</span> <span class="yellow"><</span><span class="yellow">h1</span><span class="yellow">></span>Coming Soon...<span class="yellow"><</span><span class="yellow">/h1></span>
     }
   }
   </pre>
