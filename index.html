@@ -3,8 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <title>Sebastian Opperman</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+    body {
+      background: #1d1f21;
+      font-family: 'Source Code Pro', monospace;
+      color: white;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    *::selection {
+      background: rgb(43, 43, 43);
+    }
+    .purple {
+      color: #b294bb;
+    }
+    .orange {
+      color: #de935f;
+    }
+    .blue {
+      color: #81a2be;
+    }
+    .red {
+      color: #cc6666;
+    }
+    .bold {
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-Hey
+  <pre>
+  <span class="orange">class</span> <span class="blue bold">Sebastian</span> <span class="orange">extends</span> <span class="purple">Opperman</span> {
+    <span class="red">render</span>() {
+      <span class="orange">return</span>(
+        Coming Soon...
+      )
+    }
+  }
+  </pre>
 </body>
 </html>
